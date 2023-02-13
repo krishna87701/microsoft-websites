@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+
+.res-icon{
+    display: none;
+}
+.M-logo{
+   height: 25px;
+   margin-left: 40px;
+   margin-right: 25px;
+}
+nav{
+    height: 60px;
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links{
+    display: flex;
+    width: 70%;
+  
+    justify-content: space-between;
+}
+
+.nav-links1{
+    display: flex;
+
+    list-style: none;
+}
+
+nav li{
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.Hero{
+    height: 85vh;
+    background-image: url(./Images/Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600.avif);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Hero-text h1{
+   font-size: 30px;
+   font-weight: 600;
+    margin-bottom: 25px;  
+}
+.Hero-text p{
+    font-weight: 300;
+    margin-bottom: 25px; 
+}
+.btn-b{
+   height: 40px;
+   width: 140px;
+   font-size: 16px;
+   font-weight: 600;
+   background-color: #0067b8;
+   color: white;
+   border: none;
+}
+.Text-one{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+
+}
+.Text-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 60px;
+    font-size: 25px;
+    color: #0067b8;
+}
+.Text-two a{
+    font-size: 18px;
+}
+
+.Surface{
+    height: 70vh;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Surface-text{
+    height: 50vh;
+    width: 24%;
+}
+
+.Surface-text img{
+  width: 100%;
+}
+.Surface-text h1{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.Surface-text p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.Surface-text a{
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.Xbox{
+  background-color: red;
+  height: 70vh;
+  background-image: url(./Images/gldn-XSS-Hero-Xbox-Series-S_VP5-1596x600.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Xbox-text{
+    padding: 150px;
+}
+.Xbox-text h1{
+    margin-bottom: 25px;
+}
+.Xbox-text p{
+    margin-bottom: 25px;
+}
+.Xbox-text button{
+    height: 40px;
+   width: 120px;
+   font-size: 16px;
+   font-weight: 600;
+   background-color: #0067b8;
+   color: white;
+   border: none; 
+}
+
+.buiness{
+    height: 75vh;
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.business-text{
+    height: 50vh;
+    width: 24%;
+}
+.buiness img{
+    width: 220px;
+}
+.business-text h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.business-text p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.business-text a{
+    text-decoration: none;
+    color: #0067b8;
+}
+.footer{
+    background-color: #f2f2f2;
+    height: 70vh;
+    padding: 50px;
+}
+.footer-text{
+    display: flex;
+    align-items: cente;
+    justify-content: space-between;
+}
+.footer-text ul li{
+  list-style: none;
+  padding-top: 15px;
+}
+.footer-text ul li {
+    font-size: 15px;
+    font-weight: 500;
+}
+@media (max-width:768px){
+
+    .res-icon{
+        display: block;
+        margin-left: 20px;
+    }
+
+    nav i{
+        font-size: 20px;
+    }
+    li{
+        font-size: 10px;
+    }
+   
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links{
+        display: none;
+        
+    }
+    .Hero{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .Text-one{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .Surface{
+        height: auto;
+        width: 100%;
+        flex-direction: column; 
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin: 10px;
+    }
+
+    .Surface-text{
+        height: auto;
+        width: 100%;
+    }
+    .Surface-text p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .Surface-text img{
+        width: 100%;
+    }
+    .Xbox{
+        padding: 50px;
+        width: 100%;
+    }
+    .buiness{
+        height: auto;
+        width: 100%;
+        flex-direction: column; 
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px; 
+    }
+    .business-text{
+        height: auto;
+        width: 100%;
+        margin: 10px;
+    }
+    .buiness img{
+        width: 100%;
+    }
+    .business-text p{
+        font-size: 16px;
+    }
+    .footer{
+     height: auto;
+     width: 100%;
+     padding: 50px;
+    }
+    .footer-text{
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-text ul {
+        margin-top: 30px;
+    }
+    .Hero{
+        /* background-color: blue; */
+        /* height: 85vh; */
+        width: auto;
+        background-image: url(./Images/Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600.avif);
+        background-position: center;
+        background-size: cover;
+        /* padding: 150px; */
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media (max-width: 480px) {
+    .Hero{
+        /* background-color: blue; */
+        /* height: 85vh; */
+        width: auto;
+        background-image: url(./Images/Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600.avif);
+        background-position: center;
+        background-size: cover;
+        /* padding: 150px; */
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .Xbox{
+        background-color: red;
+        height: 70vh;
+        width: 480px;
+        background-image: url(./Images/gldn-XSS-Hero-Xbox-Series-S_VP5-1596x600.webp);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+    
+        align-items: center;
+      
+      }
+}
